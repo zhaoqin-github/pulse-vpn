@@ -9,3 +9,4 @@ fi
 sudo dpkg --install ps-pulse-linux-9.1r1.0-b21-ubuntu-debian-64-bit-installer.deb
 sudo patch /usr/local/pulse/PulseClient_x86_64.sh PulseClient_x86_64.sh.patch
 sudo /usr/local/pulse/PulseClient_x86_64.sh install_dependency_packages
+sudo cat timerwell.juniper.net.crt >> /etc/ssl/certs/ca-certificates.crt
