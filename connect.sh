@@ -7,3 +7,5 @@ sleep 10
 /usr/local/pulse/PulseClient_x86_64.sh -S
 
 cat ~/.pulse_secure/pulse/pulsesvc.log
+
+ping -c 3 10.250.13.69
