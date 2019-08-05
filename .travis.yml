@@ -1,0 +1,6 @@
+dist: bionic
+
+sudo: true
+
+install:
+  - ./install_pulse.sh
