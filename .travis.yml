@@ -4,3 +4,6 @@ sudo: true
 
 install:
   - ./install_pulse.sh
+
+script:
+  - ./connect.sh
