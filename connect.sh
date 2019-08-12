@@ -22,4 +22,4 @@ if [ $RETRY -eq 0 ] ; then
   exit 1
 fi
 
-ping -c 3 10.250.13.69
+ping -c 3 $OS_HOST
