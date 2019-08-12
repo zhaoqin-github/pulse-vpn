@@ -7,8 +7,8 @@ RETRY=6
 
 while [ $RETRY -gt 0 ] ; do
   sleep $INTERVAL
+  echo "Check VPN status $RETRY"
   ((RETRY=RETRY-1))
-
   /usr/local/pulse/PulseClient_x86_64.sh -S | grep "connection status : Connected"
 
   if [ $? -eq 0 ] ; then
