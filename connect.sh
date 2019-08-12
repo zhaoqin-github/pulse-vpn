@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash
 
 INTERVAL=10
 RETRY=6
